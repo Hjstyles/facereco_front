@@ -11,7 +11,7 @@ import Rank from './components/Rank/Rank';
 import './App.css';
 
 const app = new Clarifai.App({
- apiKey: 'b15411d63ba04e1986f37ff9f03e0576'
+ apiKey: 'eeca9b9ca56f4fef9492c638e073fc1b'
 });
 
 
@@ -90,6 +90,10 @@ class App extends Component {
       })
       .catch(err => console.log(err));
   }
+
+
+
+  
 
   onRouteChange = (route) => {
     if (route === 'signout') {
